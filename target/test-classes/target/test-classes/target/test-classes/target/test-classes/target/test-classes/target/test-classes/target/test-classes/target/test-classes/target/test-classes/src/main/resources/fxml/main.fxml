@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="549.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.MainController">
+   <children>
+      <ScatterChart fx:id="sc" prefHeight="549.0" prefWidth="769.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <NumberAxis  side="BOTTOM" tickUnit="1"  />
+        </xAxis>
+        <yAxis>
+          <NumberAxis  side="LEFT" tickUnit="100"  />
+        </yAxis>
+      </ScatterChart>
+   </children>
+</AnchorPane>

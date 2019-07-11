@@ -21,7 +21,7 @@ public class Kmedoids {
         items = fileToListOfItems(2, 3);
         // System.out.println(items);
 
-        int k = 5;
+        int k = 3;
 
         Random random = new Random(0);
         List<Medoid> finalMedoids = new ArrayList<>();
